@@ -4,6 +4,7 @@ body{
 }
 a{
     text-decoration: none;
+    color: gray;
 }
 h4:hover{
     color: red;
@@ -21,7 +22,22 @@ h4:hover{
 input{
     border: none;
     outline: none;
-    width: 300px;
 }
+.deliverypic:hover{
+    background-color: black;
+
+}
+.deliverypic1:hover{
+    border-bottom: 3px solid red;
+    padding: 10px;
+}
+.textcolor:hover{
+    color: red;
+}
+.dinigpic:hover{
+    background-color: red;
+}
+
+
 
 
