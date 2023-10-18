@@ -4,48 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <section class="bg-images">
+  <section id="bg-images">
     <nav class="navbar ">
       <div class="container-fluid">
           <img src="images/logos/zomato logo.webp" alt="" height="60px" class="ms-5">
         <form class="d-flex" role="textlink">
-          <a href="#" class="me-5" ><h4>Add restaurant</h4></a>
-          <a href="#" class="me-5" ><h4>Login</h4></a>
-          <a href="#" class="me-5" ><h4>Sing-Up</h4></a>
+          <a href="#" class="me-5 text-light mt-2 textcolorchange" ><h4>Add restaurant</h4></a>
+          <a href="#" class="me-5 text-light mt-2" ><h4>Login</h4></a>
+          <a href="#" class="me-5 text-light mt-2" ><h4>Sing-Up</h4></a>
         </form>
       </div>
     </nav>
-    <div class="text-center">
-      <!-- <img src="images/logos/zomato logo.webp" class="rounded mt-5" alt="logo" height="200px"> -->
-    </div>
     <h1 class="text-center text-light fw-bold margintop">Zomato</h1>
     <h1 class="text-center text-light">Find the best restaurants, cafés <br> and bars in India</h1>
   </section>
 
-  <section id="navbar2">
-    <nav class="navbar bg-light">
-      <div class="container">
-        <form class="d-flex" role="search">
-          <img src="images/logos/zomato-logo.png" class="me-5" alt="logozomato" height="30px">
-          <div class="btn-group">
-            <button type="button" class="btn  dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
-              <img src="images/logos/location.png" alt="location" height="25px">Enter your Location 
-                </button> |
-                <div>
-                  <img src="images/logos/search.png" alt="search" height="10px">
-                <input type="search" name="search" id="" placeholder="Search">
-                </div>
-                
+  <nav class="navbar bg-white">
+    <div class="container-fluid">
+      <div class="d-flex">
+        <img src="images/logos/zomato-logo.png" alt="zomato-logo" height="30px" class=" mt-2" style="margin-left: 200px;" >
+          <form class="form-inline ms-lg-5 my-2 my-md-0 mw-200 navbar-search border rounded-3 " style="height: 50px; box-shadow: 0px 0px 1px ;" >
+            <div class="d-flex">
+            <span><i class="fa-solid fa-location-dot fa-xl mt-4 ms-4 me-2" style="color: #db141e;"></i></span>
+            <input type="text" placeholder="Location" class="bg-white fs-5 mt-2 ">
+             <span style="font-size: 30px;" class="ms-1">|</span>
+            <span><i class="fa-solid fa-magnifying-glass fa-xl mt-4 ms-1 me-2" style="color: black;"></i></span>
+            <input type="search" placeholder="Search" class="bg-white fs-5 me-3 mt-2 ">
           </div>
-        </form>
+          </form>
       </div>
-    </nav>
-  </section>
-        
-
+     
+    </div>
+  </nav>
 </body>
 </html>

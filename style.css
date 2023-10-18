@@ -4,34 +4,24 @@ body{
 }
 a{
     text-decoration: none;
-    color: white;
-    margin-top: 10px;
 }
-a:hover{
-color: red;
+h4:hover{
+    color: red;
 }
-.bg-images{
+#bg-images{
     background-image: url(images/logos/logo.avif);
-    background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 550px;
 }
 .margintop{
-    margin-top: 150px;
+    margin-top: 140px;
     font-family: calibri;
     font-size: 80px;
-}
-.searchbar{
-    width: 500px;
 }
 input{
     border: none;
     outline: none;
-    margin-top: 5px;
-}
-.btn-group{
-    border: 1px solid black;
-    outline: none;
+    width: 300px;
 }
 
 
