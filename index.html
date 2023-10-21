@@ -9,127 +9,90 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <section id="bg-images">
-    <nav class="navbar ">
-      <div class="container-fluid">
-          <img src="images/logos/zomato logo.webp" alt="" height="60px" class="ms-5">
-        <form class="d-flex" role="textlink">
-          <a href="#" class="me-5 text-light mt-2 textcolorchange" ><h4>Add restaurant</h4></a>
-          <a href="#" class="me-5 text-light mt-2" ><h4>Login</h4></a>
-          <a href="#" class="me-5 text-light mt-2" ><h4>Sing-Up</h4></a>
-        </form>
-      </div>
-    </nav>
-    <h1 class="text-center text-light fw-bold margintop">Zomato</h1>
-    <h1 class="text-center text-light">Find the best restaurants, cafés <br> and bars in India</h1>
-  </section>
-
-  <nav class="navbar bg-white">
-    <div class="container-fluid">
-      <div class="d-flex">
-        <img src="images/logos/zomato-logo.png" alt="zomato-logo" height="30px" class=" mt-2" style="margin-left: 200px;" >
-          <form class="form-inline ms-lg-5 my-2 my-md-0 mw-200 navbar-search border rounded-3 " style="height: 50px; box-shadow: 0px 0px 1px ;" >
-            <div class="d-flex">
-            <i class="fa-solid fa-location-dot fa-xl mt-4 ms-4 me-2" style="color: #db141e;"></i>
-            <input type="text" placeholder="Location" class="bg-white mt-2 " style="width: 150px;">
-            <div class="vr mt-2 me-3" style="height:30px;"></div>                                        <!--.....divider-->
-            <i class="fa-solid fa-magnifying-glass fa-xl mt-4 ms-1 me-2" style="color: black;"></i>
-            <input type="search" placeholder="Search" class="bg-white  me-3 mt-2 " style="width: 500px;">
-          </div>
-          </form>
+     <section id="bg-images">
+  <nav class="navbar navbar-expand-lg  ">
+    <div class="container">
+      <button class=" bg-transparent navbar-toggler noborder  "  type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><img src="images/logos/zomato logo.webp" alt="" height="50px" class="ms-5"></a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          <a href="#" class="me-5 text-light  textcolorchange" ><h5 class="mt-3 ms-5 fw-normal ">Add restaurant</h5></a>
+        </span>
+        <span class="navbar-text">
+          <a href="#" class="me-5 text-light  textcolorchange" ><h5 class="mt-3 ms-5 fw-normal">Login</h5></a>
+        </span>
+        <span class="navbar-text">
+          <a href="#" class="me-5 text-light  textcolorchange" ><h5 class="mt-3 ms-5 fw-normal">Sing-Up</h5></a>
+        </span>
       </div>
     </div>
   </nav>
+        <h1 class="text-center text-light fw-bold margintop">Zomato</h1>
+        <h1 class="text-center text-light homepara">Find the best restaurants, cafés <br> and bars in India</h1>
+</section>
 
-  <div style="margin-left: 210px;">
-    <a href="#"><span class="paracolorchange fst-italic">Home&nbsp;</span>/</a><a href="#"><span class="paracolorchange fst-italic">&nbsp;India&nbsp;</span>/&nbsp;</a><a href="#"><span class="paracolorchange fst-italic fw-light">Mumbai</span></a>
+<section id="description">
+  <div class="mt-5">
+    <p class="text-center  headdescription mb-2 ">Popular locations in <img src="images/logos/flag.png" alt="flag" class="rounded-3 flag-height"><span class="">India</span></p>
+    <p class="text-center mt-4 text-secondary fw-normal paradescription">From swanky upscale restaurants to the cosiest hidden gems serving the most incredible food, <br> Zomato covers it all. Explore menus, and millions of restaurant photos and reviews from users <br> just like you, to find your next great meal.</p>
   </div>
+</section>
 
-  <section id="customer-option">
-    <div class="d-flex" style="margin-left: 150px;">
-      <div class="underline ms-5 ">
-        <a href="" ><img src="images/logos/deliverybike.png" alt="deliverybike" height="80px" style="border-radius: 100px;" class="backgroundchange mb-2"><span class="textcolor fs-3">Delivery</span></a>
-      </div>
-
-      <div class="underline ms-5 ">
-        <a href="" ><img src="images/logos/dining table1.png.crdownload" alt="dinigtable" height="80px" style="border-radius: 100px; padding: 10px;" class="backgroundchange mb-2"><span class="textcolor fs-3">Dining Out</span></a>
-      </div>
-
-      <div class="underline ms-5 ">
-        <a href="" ><img src="images/logos/winglass.png" alt="winbottel" height="80px" style="border-radius: 100px; padding: 15px;" class="backgroundchange mb-2"><span class="textcolor fs-3">Nightlife</span></a>
+<div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="d-flex">
+    <div class="accordion-item col-lg-3 ms-5">
+      <h2 class="accordion-header">
+        <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+          Accordion Item #1
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+        <div class="accordion-body">
+          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
       </div>
     </div>
-  </section><hr>
-
-  <section id="4button">
-    <div class="d-flex mt-4" style="margin-left: 170px;">
-      <button type="button" class="btn border rounded-3 ms-5 "><img src="images/logos/filter.png" alt="filtericon" height="15px">
-        <span class="fw-light">Filters</span></button>
-
-        <button type="button" class="btn border rounded-3 ms-3 ">
-          <span class="fw-light">Rating: 4.0+</span></button>
-
-          <button type="button" class="btn border rounded-3 ms-3 ">
-            <span class="fw-light">Pure Veg</span></button>
-
-            <div class="btn-group">
-              <button class="btn border dropdown-toggle ms-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-               <span class="fw-light">Dropdown</span> 
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Menu item</a></li>
-                <li><a class="dropdown-item" href="#">Menu item</a></li>
-                <li><a class="dropdown-item" href="#">Menu item</a></li>
-              </ul>
-            </div>
+    <div class="accordion-item col-lg-3 ms-5">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+          Accordion Item #2
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
     </div>
-  </section>
-
-            <div id="carouselExampleFade" class="carousel slide carousel-fade">
-              <div class="carousel-inner bg-light mt-4">
-                <div class="container">
-                <div class="carousel-item active">
-                  <h6 class="mt-4 fs-3" style="margin-left: 100px;">Inspiration for your first order</h6>
-                  <div class="d-flex mt-4" style="margin-left: 70px;" >
-                    <div>
-                      <img src="images/oval-1/burger.png" class="d-block ms-3 " alt="burger" height="130px" ><br><h6 class="text-center">Burger</h6>
-                    </div>
-                    <div>
-                      <img src="images/oval-1/pizza.png" class="d-block ms-3 " alt="pizza" height="130px" ><br><h6 class="text-center">Pizza</h6>
-                    </div>
-                    <div>
-                      <img src="images/oval-1/sanwish.png" class="d-block ms-3 " alt="sandwich" height="130px" ><br><h6 class="text-center">Sandwich</h6>
-                    </div>
-                    <div>
-                      <img src="images/oval-1/paneer.png" class="d-block ms-3  " alt="Paneer" height="130px" ><br><h6 class="text-center">Paneer</h6>
-                    </div>
-                    <div>
-                      <img src="images/oval-1/rolls.png" class="d-block ms-3  " alt="Rolls" height="130px" ><br><h6 class="text-center">Rolls</h6>
-                    </div>
-                    <div>
-                      <img src="images/oval-1/chicken.png" class="d-block ms-3  " alt="Chicken" height="130px" ><br><h6 class="text-center">Chicken</h6>
-                    </div>
-                    <div>
-                      <img src="images/oval-1/nodals.png" class="d-block ms-3  " alt="Nodals" height="130px" ><br><h6 class="text-center">Nodals</h6>
-                    </div>
-                    <div>
-                      <img src="images/oval-1/dosa.png" class="d-block ms-3  " alt="Dosa" height="130px" ><br><h6 class="text-center">Dosa</h6>
-                    </div>
-                  
-                  
-                  </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon bg-dark rounded-3" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                <span class="carousel-control-next-icon bg-dark rounded-3" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
+    <div class="accordion-item col-lg-3 ms-5">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+          Accordion Item #3
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
 
 
+ 
+   
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
   
 </body>
 </html>
+
