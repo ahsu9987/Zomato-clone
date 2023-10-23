@@ -29,6 +29,19 @@ h5:hover{
 .paradescription{
     font-size: 25px;
 }
+.RestaurantLocation{
+    height: 60px;
+    width: 350px;
+    margin-right: 20px;
+    box-shadow: 0px 0px 1px 0px;
+}
+.RestaurantTable{
+    margin-left: 170px;
+}
+.textCountries{
+    margin-left: 200px;
+    font-size: 40px;
+}
 @media only screen and (max-width: 767px){
     .margintop{
         font-size: 50px;
@@ -51,6 +64,16 @@ h5:hover{
     .paradescription{
         font-size: 16px;
         padding: 22px;
+    }
+    .RestaurantLocation{
+        margin-right: 0px;
+    }
+    .RestaurantTable{
+        margin-left: 0px;
+    }
+    .textCountries{
+        margin-left: 30px;
+        font-size: 30px;
     }
 }
 
