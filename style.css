@@ -31,14 +31,13 @@ h5:hover{
 }
 .Countriesbox{
     margin-left: 20px;
-    box-shadow: 0px 0px 1px 0px;
+    box-shadow: 0px 0px 1px 0px gray;
 }
 .countrybox1{
     margin-left: 170px;
 }
 .textCountries{
     margin-left: 200px;
-    font-size: 40px;
 }
 .footerzomato{
     margin-left: 200px;
@@ -69,12 +68,6 @@ h5:hover{
         font-size: 16px;
         padding: 22px;
     }
-    .RestaurantLocation{
-        margin-right: 0px;
-    }
-    .RestaurantTable{
-        margin-left: 0px;
-    }
     .Countriesbox{
         margin-left: 5px;
     }
@@ -86,7 +79,6 @@ h5:hover{
     }
     .textCountries{
         margin-left: 30px;
-        font-size: 30px;
     }
     .footerzomato{
         margin-left: 0px;
@@ -95,5 +87,16 @@ h5:hover{
         visibility: hidden;
     }
    
+}
+@media only screen and  (min-width: 768px) and (max-width: 1200px){
+    .Countriesbox{
+        margin-left: 20px;
+    }
+    .countrybox1{
+        margin-left: 1px;
+    }
+    .textCountries{
+        margin-left:30px;
+    }
 }
 
