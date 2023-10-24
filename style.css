@@ -29,18 +29,22 @@ h5:hover{
 .paradescription{
     font-size: 25px;
 }
-.RestaurantLocation{
-    height: 60px;
-    width: 350px;
-    margin-right: 20px;
+.Countriesbox{
+    margin-left: 20px;
     box-shadow: 0px 0px 1px 0px;
 }
-.RestaurantTable{
+.countrybox1{
     margin-left: 170px;
 }
 .textCountries{
     margin-left: 200px;
     font-size: 40px;
+}
+.footerzomato{
+    margin-left: 200px;
+}
+.footerindiaflag{
+    margin-right: 220px;
 }
 @media only screen and (max-width: 767px){
     .margintop{
@@ -71,9 +75,25 @@ h5:hover{
     .RestaurantTable{
         margin-left: 0px;
     }
+    .Countriesbox{
+        margin-left: 5px;
+    }
+    .Countriesbox1{
+        margin: 0px;
+    }
+    .Countriesboxmargin{
+         margin-left: 0px;
+    }
     .textCountries{
         margin-left: 30px;
         font-size: 30px;
     }
+    .footerzomato{
+        margin-left: 0px;
+    }
+    .hideall{
+        visibility: hidden;
+    }
+   
 }
 
