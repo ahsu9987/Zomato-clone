@@ -5,6 +5,9 @@ body{
 a{
     text-decoration: none;
 }
+.navtoptxt{
+    margin-left: 100px;
+}
 h5:hover{
     color: red;
 }
@@ -40,7 +43,7 @@ h5:hover{
     margin-left: 200px;
 }
 .footerzomato{
-    margin-left: 200px;
+    margin-left: 120px;
 }
 .footerindiaflag{
     margin-right: 220px;
@@ -50,7 +53,7 @@ h5:hover{
     padding: 0px;
 }
 .lastrow{
-    margin-left: 200px;
+    margin-left: 100px;
 }
 .sociallink{
     margin-left: 160px;
@@ -60,6 +63,9 @@ h5:hover{
         font-size: 50px;
         margin-top: 100px;
     } 
+    .navtoptxt{
+        margin-left: 0px;
+    }
     .homepara{
         font-size: 20px;
     }
